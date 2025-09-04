@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ranit Karmakar | Portfolio</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="background-level-1">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top border-bottom">
+      <div class="container px-4">
+        <a class="navbar-brand" href="index.html">Ranit Karmakar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-house"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">My Story</a></li>
+            <li class="nav-item"><a class="nav-link" href="what-i-do.html">What I Do</a></li>
+            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+            <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- MAIN CONTENT -->
+    <div class="custom-container main-body">
+        <div class="row">
+          <!-- PROFILE SECTION -->
+          <div class="col-12 col-md-4 col-lg-4 mb-4">
+            <div class="level-1 text-center">
+                <div class="simple-cover-bg"></div>
+              <img src="assets/images/ranit.png" alt="Profile" class="rounded-circle me-3" />
+              <h4 class="mb-1 mt-2">Ranit Karmakar, PhD</h4>
+              <p class="text-muted mb-0">
+                Researcher | Innovator | Entrepreneur <br />
+                <i class="fas fa-briefcase me-2"></i>Harvard University<br />
+                <i class="fas fa-map-pin me-2"></i>Boston, MA
+              </p>
+              <hr/>
+              <p>Experienced researcher and builder with a PhD in Medical AI. From scaling automation in industry to leading research and strategy at Harvard, I specialize in applied ML, innovation leadership, and translating research into real-world outcomes.            </p>
+              <hr/>
+  
+              <button class="show-more-btn d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#moreInfo">
+                Show More
+              </button>
+  
+              <div id="moreInfo" class="collapse d-md-block">
+                <div class="level-2 text-center mt-4">
+                  <h4>Interests</h4>
+                  <p>
+                    <span class="tag skills">Machine Learning</span>
+                    <span class="tag skills">Artificial Intelligence</span>
+                    <span class="tag skills">Bioimage Analysis</span>
+                    <span class="tag skills">Medical AI</span>
+                    <span class="tag skills">Computer Vision</span>
+                    <span class="tag skills">Large Language Models</span>
+                    <span class="tag skills">AI Strategy</span>
+                  </p>
+                </div>
+                <div class="level-2 text-center mt-4">
+                  <h4>Socials</h4>
+                  <div class="social-icons">
+                    <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/rkarmaka" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rkarmaka/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/iRanitK" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://scholar.google.com/citations?user=gupLB6EAAAAJ&hl=en&oi=ao" target="_blank"><i class="fab fa-google-scholar"></i></a>
+                    <a href="https://orcid.org/0000-0003-2427-7920" target="_blank"><i class="fab fa-orcid"></i></a>
+                  </div>   
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- RIGHT COLUMN CONTENT -->
+    <div class="col-12 col-md-8 col-lg-8">
+        <section class="level-1">
+        <h3 class="section-title"><i class="far fa-chess-queen me-2"></i>AI & LLMs</h3>
+        <div class="row g-4">
+            
+            <!-- Project Card -->
+            <div class="col-md-6">
+            <div class="level-2 h-100 d-flex flex-column">
+                <img src="assets/images/projects/muse-mind.png" alt="Muse-mind" class="img-fluid mb-3" />
+                <h5 class="mb-1">MuseMind</h5>
+                <p class="text-muted flex-grow-1">A tiny local LLM-powered text-generator that surprises you with quirky stories and encourages curious exploration.</p>
+                <a href="https://github.com/rkarmaka/muse-mind" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+            </div>
+            </div>
+    
+            <!-- Project Card -->
+            <!-- <div class="col-md-6">
+            <div class="level-2 h-100 d-flex flex-column">
+                <img src="assets/images/" alt="Code Orator" class="img-fluid mb-3" />
+                <h5 class="mb-1">Code Orator</h5>
+                <p class="text-muted flex-grow-1">.</p>
+                <a href="https://github.com/rkarmaka/code-orator" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+            </div>
+            </div> -->
+    
+            <!-- Add more cards as needed -->
+        </div>
+        </section>
+
+        <section class="level-1">
+            <h3 class="section-title"><i class="far fa-hospital me-2"></i>Medical AI</h3>
+            <div class="row g-4">
+          
+              <!-- Card 1 -->
+              <div class="col-md-4">
+                <div class="level-2 h-100 d-flex flex-column">
+                  <!-- <img src="assets/images/brain-tumor.png" class="img-fluid rounded mb-3" alt="Brain Tumor Segmentation"> -->
+                  <h5 class="mb-1">Brain Tumor Segmentation</h5>
+                  <p class="text-muted flex-grow-1">Deep learning-based tool for identifying tumor regions in brain MRI scans.</p>
+                  <a href="https://github.com/rkarmaka/Brain-Tumor-Segmentation" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+                </div>
+              </div>
+          
+              <!-- Card 2 -->
+              <div class="col-md-4">
+                <div class="level-2 h-100 d-flex flex-column">
+                  <!-- <img src="assets/images/chest-xray.png" class="img-fluid rounded mb-3" alt="Chest X-Ray Diagnosis"> -->
+                  <h5 class="mb-1">Chest X-Ray Diagnosis</h5>
+                  <p class="text-muted flex-grow-1">Automated diagnosis of thoracic diseases using chest X-ray images and CNNs.</p>
+                  <a href="https://github.com/rkarmaka/Chest-X-Ray-Medical-Diagnosis-with-Deep-Learning" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+                </div>
+              </div>
+          
+              <!-- Card 3 -->
+              <div class="col-md-4">
+                <div class="level-2 h-100 d-flex flex-column">
+                  <!-- <img src="assets/images/evaluation.png" class="img-fluid rounded mb-3" alt="Diagnostic Evaluations"> -->
+                  <h5 class="mb-1">Diagnostic Evaluations</h5>
+                  <p class="text-muted flex-grow-1">Framework for benchmarking diagnostic AI models with visual output support.</p>
+                  <a href="https://github.com/rkarmaka/Diagnostic-Models-Evaluations" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+                </div>
+              </div>
+          
+            </div>
+          </section>
+          
+
+        <section class="level-1">
+            <h3 class="section-title"><i class="fas fa-microscope me-2"></i>Bioimage Analysis</h3>
+            <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="level-2 h-100 d-flex flex-column">
+                    <!-- <img src="assets/images/circus.png" class="img-fluid rounded mb-3" alt="Project 3"> -->
+                    <h5 class="mb-1">BIA-QC</h5>
+                    <p class="text-muted">Quality control for bioimage analysis.</p>
+                    <a href="https://github.com/rkarmaka/BIA-QC" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="level-2 h-100 d-flex flex-column">
+                    <img src="assets/images/circus.png" class="img-fluid rounded mb-3" alt="Project 3">
+                    <h5 class="mb-1">LuTiPy</h5>
+                    <p class="text-muted">LUTiPy is a Python package for creating aesthetically pleasing composite images from fluorescent microscopy data using complementary LUTs.</p>
+                    <a href="https://github.com/rkarmaka/LUTiPy" class="btn-theme mt-auto" target="_blank"><i class="fab fa-github me-2"></i>Learn More</a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        
+        
+    </div>
+  
+        </div>
+        </div>
+
+    <!-- FOOTER -->
+    <hr />
+    <footer class="text-center">
+      <p>&copy; 2024 Ranit Karmakar</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

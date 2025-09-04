@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ranit Karmakar's personal website. About page, listing my story and background." />
+    <meta name="keywords" content="Ranit Karmakar, AI, Machine Learning, Medical AI, Bioimage Analysis, Large Language Models, AI Strategy" />
+    <meta name="author" content="Ranit Karmakar" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="notranslate" />
+    <meta name="google-site-verification" content="your-verification-code" />
+    <title>Ranit Karmakar | Portfolio</title>
+
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.css" />
+
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="background-level-1">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom">
+      <div class="container px-4">
+        <a class="navbar-brand" href="index.html">Ranit Karmakar</a>
+    
+        <!-- Hamburger toggler (no navbar-light/dark needed now) -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-house"></i></a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">My Story</a></li>
+            <li class="nav-item"><a class="nav-link" href="what-i-do.html">What I Do</a></li>
+            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
+    
+            <!-- Theme toggle (icon-only) -->
+            <li class="nav-item ms-2">
+              <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
+                <i id="theme-icon" class="fas fa-sun" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- MAIN CONTENT -->
+    <div class="custom-container main-body">
+      <div class="row">
+        <!-- PROFILE SECTION -->
+        <div class="col-12 col-md-4 col-lg-4 mb-4">
+          <div class="level-1 text-center">
+            <div class="simple-cover-bg"></div>
+            <img src="assets/images/ranit.png" alt="Profile" class="rounded-circle me-3" />
+            <h4 class="mb-1 mt-2">Ranit Karmakar, PhD</h4>
+            <p class="text-muted mb-0">
+              Researcher | Innovator | Entrepreneur <br />
+              <i class="fas fa-briefcase me-2"></i>Harvard University<br />
+              <i class="fas fa-map-pin me-2"></i>Boston, MA
+            </p>
+            <hr/>
+            <p>Experienced researcher and builder with a PhD in Medical AI. From scaling automation in industry to leading research and strategy at Harvard, I specialize in applied ML, innovation leadership, and translating research into real-world outcomes.            </p>
+            <hr/>
+
+            <button class="show-more-btn d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#moreInfo">
+              Show More
+            </button>
+
+            <div id="moreInfo" class="collapse d-md-block">
+              <div class="level-2 text-center mt-4">
+                <h4>Interests</h4>
+                <p>
+                  <span class="tag skills">Machine Learning</span>
+                  <span class="tag skills">Artificial Intelligence</span>
+                  <span class="tag skills">Bioimage Analysis</span>
+                  <span class="tag skills">Medical AI</span>
+                  <span class="tag skills">Computer Vision</span>
+                  <span class="tag skills">Large Language Models</span>
+                  <span class="tag skills">AI Strategy</span>
+                </p>
+              </div>
+              <!-- <div class="level-2 text-center mt-4">
+                <h4>Testimonials</h4>
+                <div class="testimonial-slider">
+                  <div class="testimonial-card active">
+                    <img src="assets/images/ranit.png" alt="Person 1" class="testimonial-img" />
+                    <h5>Jane Doe</h5>
+                    <p class="designation">AI Lead, HealthTech</p>
+                    <p class="testimony">"Ranit’s ability to bridge research and real-world application is simply outstanding."</p>
+                  </div>
+                  <div class="testimonial-card">
+                    <img src="assets/images/ranit.png" alt="Person 2" class="testimonial-img" />
+                    <h5>John Smith</h5>
+                    <p class="designation">CTO, BioAI Labs</p>
+                    <p class="testimony">"Working with Ranit was a masterclass in strategic thinking and innovation."</p>
+                  </div>
+                  <div class="testimonial-card">
+                    <img src="assets/images/ranit.png" alt="Person 3" class="testimonial-img" />
+                    <h5>Aisha Ray</h5>
+                    <p class="designation">Product Manager, MedML</p>
+                    <p class="testimony">"A rare blend of empathy, technical brilliance, and leadership."</p>
+                  </div>
+                </div>
+              </div> -->
+
+              <div class="level-2 text-center mt-4">
+                <h4>Get in Touch</h4>
+                <div class="social-icons">
+                  <a href="mailto:your@email.com"><i class="fas fa-envelope"></i></a>
+                  <a href="https://github.com/rkarmaka" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/rkarmaka/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://x.com/iRanitK" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://scholar.google.com/citations?user=gupLB6EAAAAJ&hl=en&oi=ao" target="_blank"><i class="fab fa-google-scholar"></i></a>
+                  <a href="https://orcid.org/0000-0003-2427-7920" target="_blank"><i class="fab fa-orcid"></i></a>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN CONTENT -->
+        <div class="col-12 col-md-8 col-lg-8">
+          <section class="level-1">
+            <h3 class="section-title">My Story</h3>
+            <div class="level-2 mb-2">
+              <p class="quote">“You can’t connect the dots looking forward; you can only connect them looking backward.” <br>
+                — Steve Jobs</p>
+              <p>My path hasn’t been linear. I’ve gone from hacking small tools in college, to automating workflows in industry, to diving into medical AI in academia. Looking back, the thread running through it all is simple: a drive to work on problems that matter.</p>
+              <p>At the heart of it all is a drive to work on things that matter. Whether it was building small tools in college, working on automation and machine learning in the IT industry, or diving into medical AI during my PhD—I’ve followed a thread of curiosity, impact, and purpose. Leadership opportunities, from student government to the Dean’s office, taught me the value of listening and showing up for others. My postdoc at Harvard brought it all together—research, teaching, strategy, and collaboration—deepening my belief that meaningful technology work happens at the intersection of depth and direction.</p>
+              <p>Looking back and ahead, I see my path shaped by a few principles:</p>
+            </div>
+        
+            <div class="level-2 mb-2">
+              <h4 class="section-title"><i class="fas fa-hammer me-2"></i>Build with purpose</h4>
+              <p>I’ve always enjoyed building—but only when it solves something real. In college, it was home automation and connecting blood donors. Today, it’s AI for healthcare or tools that help people work better. The purpose is what makes the building worthwhile.</p>
+            </div>
+            <div class="level-2 mb-2">
+              <h4 class="section-title"><i class="fas fa-shield me-2"></i>Own the messy parts</h4>
+              <p>I care deeply about taking ideas beyond the whiteboard. That means helping find funding, shaping research proposals, or working through the inevitable hiccups in any project. The mess is where the real learning—and progress—often happens.</p>
+            </div>
+            <div class="level-2 mb-2">
+              <h4 class="section-title"><i class="far fa-lightbulb me-2"></i>Stay endlessly curious</h4>
+              <p>My path has been anything but linear—enterprise IT, student government, startups, medical AI, teaching, writing grants. I’ve never done things just to build a résumé. I do them because I’m curious and love solving new problems. Growth keeps me going.</p>
+            </div>
+            <div class="level-2 mb-2">
+              <h4 class="section-title"><i class="fas fa-scale-balanced me-2"></i>Lead by showing up</h4>
+              <p>For me, leadership has never been about titles. It’s about listening, caring, and doing the work. That’s how I found myself in leadership roles in student government, and it’s the same approach I take in any team or project I’m part of.</p>
+            </div>
+            <div class="level-2 mb-2">
+              <h4 class="section-title"><i class="fas fa-cogs me-2"></i>Solve problems that matter</h4>
+              <p>I want my work to make someone’s day easier, their care more accurate, their system more efficient. I’m not drawn to shiny tech for its own sake—I’m drawn to real problems that affect real people.</p>
+            </div>
+            <div class="level-2 mb-2">
+              <h4 class="section-title"><i class="fas fa-bullseye me-2"></i>Move with intention</h4>
+              <p>I won’t pretend to have everything figured out. But I try to be thoughtful—about what I say yes to, who I work with, and the values behind it. Many of the best turns in my journey began with a leap of faith and a sense that it mattered.</p>
+            </div>
+            <div class="level-2 mb-2">
+              <h4 class="section-title">So, what's next?</h4>
+              <p>I’m not aiming for a perfect story—just a meaningful one. I want to keep working on things that feel real, grounded, and aligned with who I am.
+        
+                If any of this resonates—or if there's something we could build together—I’d love to connect.</p>
+            </div>
+          </section>
+        
+
+          <!-- <section class="level-1">
+            <h3 class="section-title">My Philosophy</h3>
+            <div class="level-2 mb-2">
+              <p>I believe technology should be built with intention — not just to publish papers, but to solve meaningful problems. Whether I’m writing Python, drafting a grant, or mentoring a student, I aim to bridge the gap between research and reality.</p>
+              <p>A few principles I work by:</p>
+              <ul>
+                <li>Build fast, but build responsibly</li>
+                <li>Cross boundaries. Code is most powerful when it's contextual</li>
+                <li>Empower others — the best work is rarely done alone</li>
+              </ul>
+            </div>
+          </section> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <hr />
+    <footer class="text-center">
+      <p>&copy; 2024 Ranit Karmakar</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
